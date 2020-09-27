@@ -1,0 +1,59 @@
+body {
+	/*background-color: gray;*/
+	background-color: #e0e0e0
+}
+
+
+.container {
+	background-color: white;
+}
+
+footer{
+	width: 100%;
+}
+
+
+.footer-copyright {
+	width: 100%;
+	text-align: center;
+}
+
+.homepage-title {
+	width: 100%;
+	font-size: 70px;
+	text-align: center;
+}
+
+.publications-title {
+	font-size: 70px;
+	text-align: center;
+	/*color: blue;*/
+}
+
+nav {
+	display: flex;
+	width: 100%;
+	justify-content:space-around;
+	font-size:40px;
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: green;
+}
+
+.pubs {
+
+	display: flex;
+	text-align: center;
+	font-size: 25px;
+
+}
+
+table {
+	display: flex;
+	width: 100%;
+	margin:0;
+  	text-align: center;
+	font-size: 25px;
+}
