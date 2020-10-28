@@ -30,16 +30,23 @@ footer{
 	/*color: blue;*/
 }
 
-nav {
+.navbar-nav .nav-item .nav-link {
+    color: #007bff;
+}
+
+
+.navbar-nav {
+	color: #007bff;
 	display: flex;
 	width: 100%;
 	justify-content:space-around;
 	font-size:40px;
 }
 
-nav a:hover {
-	text-decoration: none;
-	color: green;
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: green;
 }
 
 .pubs {
