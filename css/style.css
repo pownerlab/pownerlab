@@ -1,6 +1,6 @@
 body {
 	/*background-color: gray;*/
-	background-color: #e0e0e0
+	background-color: #cee0f0;
 	/*background-image: url("../img/background.svg");
 	background-repeat: no-repeat;
 	background-position: center;*/
@@ -9,6 +9,7 @@ body {
 
 .container {
 	background-color: white;
+	
 }
 
 footer{
@@ -34,12 +35,12 @@ footer{
 }
 
 .navbar-nav .nav-item .nav-link {
-    color: #007bff;
+    color: #1264c4;
 }
 
 
 .navbar-nav {
-	color: #007bff;
+	color: #1264c4;
 	display: flex;
 	width: 100%;
 	justify-content:space-around;
@@ -49,15 +50,7 @@ footer{
 
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
-    color: green;
-}
-
-.pubs {
-
-	display: flex;
-	text-align: center;
-	font-size: 25px;
-
+    color: #b95f89;
 }
 
 table {
@@ -71,13 +64,29 @@ table {
 .navbar-toggler{
 width: 100%;
 height: 100%;
-background-color: #007bff;
+background-color: #ffffff;
 
 }
 
 .navbar.navbar-1 .navbar-toggler-icon {
-background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
-float:right;
+background-image: url('https://mdbootstrap.com/img/svg/hamburger3.svg?color=1264c4');
+float:left;
+}
+
+a, a:link {
+color: black;
+}
+
+a:hover {
+color: #b95f89;
+text-decoration:none;
+}
+
+.pubyears {
+text-align:center;
+color:#1264c4;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 
 

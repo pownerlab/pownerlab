@@ -1,7 +1,71 @@
 <ul class="list-group list-group-flush">
-  <li class="list-group-item"><a href="https://chemrxiv.org/articles/preprint/Prebiotic_Synthesis_of_Cysteine_Peptides_That_Catalyze_Peptide_Ligation_in_Neutral_Water/12578699"><b>Prebiotic Synthesis of Cysteine Peptides That Catalyze Peptide Ligation in Neutral Water.</b>Foden, C.; Islam, S.; Garcia, C. A. F.; Maugeri, L.; Sheppard, T.; and Powner, M. . 7 2020.</a></li>
-  <li class="list-group-item">Dapibus ac facilisis in</li>
-  <li class="list-group-item">Morbi leo risus</li>
-  <li class="list-group-item">Porta ac consectetur ac</li>
-  <li class="list-group-item">Vestibulum at eros</li>
+  <li class="list-group-item"><a href="https://science.sciencemag.org/content/370/6518/865?intcmp=trendmd-sci"><b>Prebiotic Synthesis of Cysteine Peptides That Catalyze Peptide Ligation in Neutral Water.</b>Foden, C.; Islam, S.; Garcia, C. A. F.; Maugeri, L.; Sheppard, T.; and Powner, M. Science. 2020.</a></li>
+
+  <li class="list-group-item"><a href="https://pubs.acs.org/doi/10.1021/acsearthspacechem.9b00006"><b>Analyses of Aliphatic Aldehydes and Ketones in Carbonaceous Chondrites.</b>Aponte, J. C.; Whitaker, D.; Powner, M. W.; Elsila, J. E.; and Dworkin, J. P. ACS Earth and Space Chemistry, 3(3): 463–472. 2019.</a></li>
+
+    <li class="list-group-item"><a href="http://doi.org/10.1038/s42004-019-0124-5"><b>Selective prebiotic synthesis of phosphoroaminonitriles and aminothioamides in neutral water.</b>Ashe, K.; Fernández-García, C.; Corpinot, M. K.; Coggins, A. J.; Bučar, D. K.; and Powner, M. W. Communications Chemistry, 2(1). 2019.</a></li>
+
+        <li class="list-group-item"><a href="http://doi.org/10.1038/s41557-019-0299-5"><b>Heated gas bubbles enrich, crystallize, dry, phosphorylate and encapsulate prebiotic molecules.</b>Morasch, M.; Liu, J.; Dirscherl, C. F.; Ianeselli, A.; Kühnlein, A.; Le Vay, K.; Schwintek, P.; Islam, S.; Corpinot, M. K.; Scheu, B.; Dingwell, D. B.; Schwille, P.; Mutschler, H.; Powner, M. W.; Mast, C. B.; and Braun, D. Nature Chemistry, 11(9): 779–788. 2019.</a></li>
+
+                <li class="list-group-item"><a href="http://doi.org/10.1038/s41586-019-1371-4"><b>Peptide ligation by chemoselective aminonitrile coupling in water.</b>Canavelli, P.; Islam, S.; and Powner, M. W. Nature, 571(7766): 546–549. 2019.</a></li>
+
+                                <li class="list-group-item"><a href="http://doi.org/10.1038/s41929-018-0131-4"><b>Protocells realize their potential.</b>Islam, S.; and Powner, M. W. Nature Catalysis, 1(8): 569–570. 2018.</a></li>
+
+                                                                <li class="list-group-item"><a href="http://doi.org/10.1039/c8cc07343k"><b>Photostability of oxazoline RNA-precursors in UV-rich prebiotic environments.</b>Janicki, M. J.; Roberts, S. J.; Šponer, J.; Powner, M. W.; Góra, R. W.; and Szabla, R. Chemical Communications, 54(95): 13407–13410. 2018.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.1039/c8cc01929k"><b>Selective aqueous acetylation controls the photoanomerization of α-cytidine-5′-phosphate.</b>Fernández-García, C.; Grefenstette, N. M.; and Powner, M. W. Chemical Communications, 54(38): 4850–4853. 2018.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.1038/s41467-018-06374-z"><b>Selective prebiotic conversion of pyrimidine and purine anhydronucleosides into Watson-Crick base-pairing arabino-furanosyl nucleosides in water.</b>Roberts, S. J.; Szabla, R.; Todd, Z. R.; Stairs, S.; Bučar, D. K.; Šponer, J.; Sasselov, D. D.; and Powner, M. W. Nature Communications, 9(1). 2018.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.1038/s41467-018-07221-x"><b>Prebiotic nucleic acids need space to grow.</b>Whitaker, D.; and Powner, M. W. Nature Communications, 9(1). 2018.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.1016/j.chempr.2017.03.001"><b>Prebiotic Systems Chemistry: Complexity Overcoming Clutter.</b>Islam, S.; and Powner, M. W. Chem, 2(4): 470–501. 2017.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.1055/s-0036-1590968"><b>Scalable Synthesis of 2,2′-Anhydro-arabinofuranosyl Imidazoles.</b>Stairs, S.; and Powner, M. W. Synlett, 28(19): 2650–2654. 2017.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.1038/nchem.2703"><b>Prebiotic selection and assembly of proteinogenic amino acids and natural nucleotides from complex mixtures.</b>Islam, S.; Bučar, D. K.; and Powner, M. W. Nature Chemistry, 9(6): 584–589. 2017.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.1055/s-0036-1588626"><b>Selective Acylation of Nucleosides, Nucleotides, and Glycerol-3-phosphocholine in Water.</b>Fernández-García, C.; and Powner, M. W. Synlett, 28(1): 78–83. 2017.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.1038/ncomms15270"><b>Divergent prebiotic synthesis of pyrimidine and 8-oxo-purine ribonucleotides.</b>Stairs, S.; Nikmal, A.; Bǔar, D. K.; Zheng, S. L.; Szostak, J. W.; and Powner, M. W. Nature Communications, 8. 2017.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.3390/life7030031"><b>A chemist's perspective on the role of phosphorus at the origins of life.</b>Fernández-García, C.; Coggins, A. J.; and Powner, M. W. Life, 7(3). 2017.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.1038/nchem.2624"><b>Prebiotic synthesis of phosphoenol pyruvate by α-phosphorylation-controlled triose glycolysis.</b>Coggins, A. J.; and Powner, M. W. Nature Chemistry, 9(4): 310–317. 2016.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.1039/c5ob00210a"><b>One-step protecting-group-free synthesis of azepinomycin in water.</b>Coggins, A. J.; Tocher, D. A.; and Powner, M. W. Organic and Biomolecular Chemistry, 13(11): 3378–3381. 2015.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.1002/chem.201202649"><b>Detection of potential TNA and RNA nucleoside precursors in a prebiotic mixture by pure shift diffusion-ordered NMR spectroscopy.</b>Islam, S.; Aguilar, J. A.; Powner, M. W.; Nilsson, M.; Morris, G. A.; and Sutherland, J. D. Chemistry - A European Journal, 19(14): 4586–4595. 2013.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.1038/nchem.1626"><b>Prebiotically plausible oligoribonucleotide ligation facilitated by chemoselective acetylation.</b>Bowler, F. R.; Chan, C. K.; Duffy, C. D.; Gerland, B.; Islam, S.; Powner, M. W.; Sutherland, J. D.; and Xu, J. Nature Chemistry, 5(5): 383–389. 2013.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.1038/nchem.1623"><b>Functional RNAs exhibit tolerance for non-heritable 2′-5′ versus 3′-5′ backbone heterogeneity.</b>Engelhart, A. E.; Powner, M. W.; and Szostak, J. W. Nature Chemistry, 5(5): 390–394. 2013.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.1021/ja306176n"><b>Multicomponent assembly of proposed DNA precursors in water.</b>Powner, M. W.; Zheng, S. L.; and Szostak, J. W. Journal of the American Chemical Society, 134(33): 13889–13895. 2012.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.1098/rstb.2011.0134"><b>Prebiotic chemistry: A new modus operandi.</b>Powner, M. W.; and Sutherland, J. D. Philosophical Transactions of the Royal Society B: Biological Sciences, 366(1580): 2870–2877. 2011.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.1055/s-0030-1261177"><b>The origins of nucleotides.</b>Powner, M. W.; Sutherland, J. D.; and Szostak, J. W. , (14): 1956–1964. 2011.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.1055/s-0030-1261177"><b>The origins of nucleotides.</b>Powner, M. W.; Sutherland, J. D.; and Szostak, J. W. Synlett, (14): 1956–1964. 2011.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.1002/anie.201001662"><b>Phosphate-mediated interconversion of Ribo- and Arabino-configured prebiotic nucleotide intermediates. </b>Powner, M. W.; and Sutherland, J. D. Angewandte Chemie - International Edition, 49(27): 4641–4643. 2010.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.1021/ja108197s"><b>Chemoselective multicomponent one-pot assembly of purine precursors in water. </b>Powner, M. W.; Sutherland, J. D.; and Szostak, J. W. Journal of the American Chemical Society, 132(46): 16677–16688. 2010.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.1021/cb100093g"><b>A stereoelectronic effect in prebiotic nucleotide synthesis.</b>Choudhary, A.; Kamer, K. J.; Powner, M. W.; Sutherland, J. D.; and Raines, R. T. ACS Chemical Biology, 5(7): 655–657. 2010.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.1038/nature08013"><b>Synthesis of activated pyrimidine ribonucleotides in prebiotically plausible conditions.</b>Powner, M. W.; Gerland, B.; and Sutherland, J. D. Nature, 459(7244): 239–242. 2009.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.1002/cbic.200800391"><b>Potentially prebiotic synthesis of pyrimidine β-D-ribonucleotides by photoanomerization/hydrolysis of α-D-cytidine-2′-phosphate.</b>Powner, M. W.; and Sutherland, J. D. ChemBioChem, 9(15): 2386–2387. 2008.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.1002/cbdv.200790060"><b>RNA: Prebiotic product, or biotic invention?</b>Anastasi, C.; Buchet, F. F.; Crowe, M. A.; Parkes, A. L.; Powner, M. W.; Smith, J. M.; and Sutherland, J. D. , 4(4): 721–739. 2007.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.1002/cbic.200700098"><b>On the prebiotic synthesis of ribonucleotides: Photoanomerisation of cytosine nucleosides and nucleotides revisited.</b>Powner, M. W.; Anastasi, C.; Crowe, M. A.; Parkes, A. L.; Raftery, J.; and Sutherland, J. D. ChemBioChem, 8(10): 1170–1179. 2007.</a></li>
+
+<li class="list-group-item"><a href="http://doi.org/10.1002/ange.200601267"><b>Direct Assembly of Nucleoside Precursors from Two- and Three-Carbon Units.</b>Anastasi, C.; Crowe, M. A.; Powner, M. W.; and Sutherland, J. D. Angewandte Chemie, 118(37): 6322–6325. 2006.</a></li>
+
+
+
+
 </ul>
