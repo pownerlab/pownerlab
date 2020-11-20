@@ -72,7 +72,7 @@ float:left;
 }
 
 a, a:link {
-color: black;
+color: #1264c4;
 }
 
 a:hover {
@@ -82,7 +82,7 @@ text-decoration:none;
 
 .pubyears {
 text-align:center;
-color:#1264c4;
+color:black;
 padding-top: 10px;
 padding-bottom: 10px;
 }
