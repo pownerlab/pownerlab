@@ -1,9 +1,7 @@
 body {
-	/*background-color: gray;*/
-	background-color: #cee0f0;
-	/*background-image: url("../img/background.svg");
-	background-repeat: no-repeat;
-	background-position: center;*/
+	
+	background-color: #fafafa;
+
 }
 
 
@@ -50,7 +48,7 @@ footer{
 
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
-    color: #b95f89;
+    color: #f5ab3d;
 }
 
 table {
