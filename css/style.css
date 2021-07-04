@@ -87,5 +87,112 @@ padding-top: 10px;
 padding-bottom: 10px;
 }
 
+/*Formatting the icons for publications.html */
+ul.pep li {
+    list-style-type: none;
+    background-image: url('../img/pep_thumb.svg');
+    background-repeat: no-repeat;
+    line-height: 20px;
+    padding-left: 40px;
+    font-size:1rem;
+    text-align:justify;
+}
+
+ul.rna li {
+    list-style-type: none;
+    background-image: url('../img/rna_thumb.svg');
+    background-repeat: no-repeat;
+    line-height: 20px;
+    padding-left: 40px;
+    font-size:1rem;
+    text-align:justify;
+}
+
+ul.proto li {
+    list-style-type: none;
+    background-image: url('../img/proto_thumb.svg');
+    background-repeat: no-repeat;
+    line-height: 20px;
+    padding-left: 40px;
+    font-size:1rem;
+    text-align:justify;
+}
+
+ul.rna_pep li {
+    list-style-type: none;
+    background-image: url('../img/rna_pep_thumb.svg');
+    background-repeat: no-repeat;
+    line-height: 20px;
+    padding-left: 80px;
+    font-size:1rem;
+    text-align:justify;
+}
+
+ul.rando li {
+    list-style-type: none;
+    background-image: url('../img/placeholder_thumb.svg');
+    background-repeat: no-repeat;
+    line-height: 20px;
+    padding-left: 40px;
+    font-size:1rem;
+    text-align:justify;
+}
+
+ul.rna_proto li {
+    list-style-type: none;
+    background-image: url('../img/rna_proto_thumb.svg');
+    background-repeat: no-repeat;
+    line-height: 20px;
+    padding-left: 80px;
+    font-size:1rem;
+    text-align:justify;
+}
+
+/*End of formatting the icons for publications.html */
+
+/* 
+Extra small devices (portrait phones, less than 544px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+h1 {font-size:1rem;} /*1rem = 16px*/
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  h1 {font-size:1.5rem;} /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  h1 {font-size:2rem;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  h1 {font-size:2.5rem;} /*1rem = 16px*/
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  h1 {font-size:3rem;} /*1rem = 16px*/    
+}
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+ 
+/* Set width to make card deck cards 100% width */
+@media (min-width: 950px) and (max-width:1100px) { 
+  h1 {font-size:2.75rem;color:red;} 
+}
 
 
