@@ -195,4 +195,11 @@ Custom media queries
   h1 {font-size:2.75rem;color:red;} 
 }
 
+.box {
+    padding: 0 25px 0 25px;
+}
+.box .inner {
+    background-color: #fff;
+}
+
 
