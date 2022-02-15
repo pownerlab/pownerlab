@@ -1,78 +1,230 @@
-body {
-	
-	background-color: #fafafa;
+html {
+	font-size: 62.5%;
+	scroll-snap-type: mandatory;
+	scroll-snap-type: y mandatory;
+	scroll-padding-top: 2vh;
+	-ms-overflow-style: none;  /* IE and Edge remove scrollbar */
+	scrollbar-width: none;  /* Firefox remove scrollbar */
+}
+
+::-webkit-scrollbar {
+    display: none; /* Chrome remove scrollbar */
+}
+
+.landing-text {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: tomato;
+  font-size: 10em;
+  scroll-snap-align:start;
+}
+
+.home-item{
+  width: 100%;
+  text-align: center;
+}
+
+.research_head_box {
+
+	background: tomato;
+	padding: 5 px;
+	width: 200 px;
+	height: 50 px;
+	margin: 50 px;
+        border-radius: 15px 50px 30px 5px;
+        
+	line-height: 50px;
+        color: white;
+        font-weight: bold;
+        font-size: 3em;
+        text-align: center;
 
 }
 
-
-.container {
-	background-color: white;
-	
+.research_page1 {
+	font-size: 4em;
+	color: #83d0fa;
+	height: 30vh;
+	font-weight: bold;
+	text-align: center;
+	background: tomato;
+        scroll-snap-align:center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
+
+
+/* research_page2 and research_page3 are currently the same */
+.research_page2 {
+	font-size: 3.5em;
+        line-height: 2;
+	height: 100vh;
+	font-weight: bold;
+	text-align: center;
+	color: #ff6347;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	scroll-snap-align:start;
+}
+
+.research_page3 {
+	font-size: 3.5em;
+        line-height: 2;
+	height: 100vh;
+	font-weight: bold;
+	text-align: center;
+	color: #ff6347;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	scroll-snap-align:start;
+}
+
+.research_page4 {
+	font-size: 2.5em;
+	color: #83d0fa;
+	height: 40vh;
+	font-weight: bold;
+	text-align: center;
+	background: tomato;
+        scroll-snap-align:center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.research_page5 {
+	height: 60vh;
+        scroll-snap-align:start;
+        color: #83d0fa;
+        font-weight: bold;
+        font-size: 2.5em;
+}
+
+.research_page6 {
+	height: 40vh;
+	text-align: center;
+	background: white;
+        scroll-snap-align:center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.line-break {
+	width: 100%;
+}
+
+.researchscroll {
+	font-size: 2.5em;
+	height: 100vh;
+	font-weight: bold;
+	text-align: center;
+	color: tomato;
+        background-color: #83d0fa;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	scroll-snap-align:start;
+}
+
+.researchscroll2 {
+	font-size: 2.5em;
+	height: 100vh;
+	font-weight: bold;
+	text-align: center;
+	color: #83d0fa;
+        background-color: tomato;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	scroll-snap-align:start;
+}
+
+.researchscrollcol {
+	font-size: 2em;
+	height: 250vh;
+	font-weight: bold;
+	text-align: center;
+	color: tomato;
+        
+
+	justify-content: center;
+	align-items: center;
+	scroll-snap-align:start;
+}
+
+
+
+/* IDs */
+#landingpage {
+	background-image: url('../img/landingpage.svg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	background-color: transparent;
+}
+
+#research_page_2 {
+	background-image: url('../img/example.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	background-color: transparent;
+}
+
+#research_page_3 {
+	background-image: url('../img/water.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	background-color: transparent;
+
+}
+
 
 footer{
 	width: 100%;
 }
 
+.bg-1 {
+
+	background-color:#fff;
+	width: 100%;
+
+}
 
 .footer-copyright {
 	width: 100%;
 	text-align: center;
 }
 
-.homepage-title {
-	width: 100%;
-	font-size: 70px;
-	text-align: center;
+a {
+    text-decoration: none;
+    color: tomato;
 }
 
-.publications-title {
-	font-size: 70px;
-	text-align: center;
-	/*color: blue;*/
-}
-
-.navbar-nav .nav-item .nav-link {
-    color: #1264c4;
-}
-
-
-.navbar-nav {
-	color: #1264c4;
-	display: flex;
-	width: 100%;
-	justify-content:space-around;
-	font-size:40px;
-}
-
-
-.navbar-nav .nav-item.active .nav-link,
-.navbar-nav .nav-item:hover .nav-link {
-    color: #f5ab3d;
-}
-
-table {
-	display: flex;
-	width: 100%;
-	margin:0;
-  	text-align: center;
-	font-size: 25px;
-}
-
-.navbar-toggler{
-width: 100%;
-height: 100%;
-background-color: #ffffff;
-
-}
-
-.navbar.navbar-1 .navbar-toggler-icon {
-background-image: url('https://mdbootstrap.com/img/svg/hamburger3.svg?color=1264c4');
-float:left;
-}
-
-a, a:link {
-color: #1264c4;
+a:focus {
+  text-decoration: none;
+  color: #000000;
 }
 
 a:hover {
@@ -80,21 +232,42 @@ color: #f5ab3d;
 text-decoration:none;
 }
 
+
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.publications-title {
+	font-size: 70px;
+	text-align: center;
+	color: blue;
+}
+
 .pubyears {
 text-align:center;
-color:black;
+color: #83d0fa;
+font-size:2rem;
 padding-top: 10px;
 padding-bottom: 10px;
 }
 
 /*Formatting the icons for publications.html */
+
 ul.pep li {
     list-style-type: none;
     background-image: url('../img/pep_thumb.svg');
     background-repeat: no-repeat;
-    line-height: 20px;
-    padding-left: 40px;
-    font-size:1rem;
+    line-height: 40px;
+    padding-left: 10%;
+    padding-right: 5%;
+    font-size:1.5rem;
     text-align:justify;
 }
 
@@ -102,9 +275,10 @@ ul.rna li {
     list-style-type: none;
     background-image: url('../img/rna_thumb.svg');
     background-repeat: no-repeat;
-    line-height: 20px;
-    padding-left: 40px;
-    font-size:1rem;
+    line-height: 40px;
+    padding-left: 10%;
+    padding-right: 5%;
+    font-size:1.5rem;
     text-align:justify;
 }
 
@@ -112,9 +286,10 @@ ul.proto li {
     list-style-type: none;
     background-image: url('../img/proto_thumb.svg');
     background-repeat: no-repeat;
-    line-height: 20px;
-    padding-left: 40px;
-    font-size:1rem;
+    line-height: 40px;
+    padding-left: 10%;
+    padding-right: 5%;
+    font-size:1.5rem;
     text-align:justify;
 }
 
@@ -122,9 +297,10 @@ ul.rna_pep li {
     list-style-type: none;
     background-image: url('../img/rna_pep_thumb.svg');
     background-repeat: no-repeat;
-    line-height: 20px;
-    padding-left: 80px;
-    font-size:1rem;
+    line-height: 40px;
+    padding-left: 10%;
+    padding-right: 5%;
+    font-size:1.5rem;
     text-align:justify;
 }
 
@@ -132,9 +308,10 @@ ul.rando li {
     list-style-type: none;
     background-image: url('../img/placeholder_thumb.svg');
     background-repeat: no-repeat;
-    line-height: 20px;
-    padding-left: 40px;
-    font-size:1rem;
+    line-height: 40px;
+    padding-left: 10%;
+    padding-right: 5%;
+    font-size:1.5rem;
     text-align:justify;
 }
 
@@ -142,64 +319,91 @@ ul.rna_proto li {
     list-style-type: none;
     background-image: url('../img/rna_proto_thumb.svg');
     background-repeat: no-repeat;
-    line-height: 20px;
-    padding-left: 80px;
-    font-size:1rem;
+    line-height: 40px;
+    padding-left: 10%;
+    padding-right: 5%;
+    font-size:1.5rem;
     text-align:justify;
+}
+
+@media only screen and (max-width: 768px) {
+    ul.rna_proto li {
+    list-style-type: none;
+    background-image: url('../img/rna_proto_thumb.svg');
+    background-repeat: no-repeat;
+    line-height: 40px;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size:1.5rem;
+    text-align:justify;
+}
+
+ul.rna_pep li {
+    list-style-type: none;
+    background-image: url('../img/rna_pep_thumb.svg');
+    background-repeat: no-repeat;
+    line-height: 40px;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size:1.5rem;
+    text-align:justify;
+}
+
+ul.rando li {
+    list-style-type: none;
+    background-image: url('../img/placeholder_thumb.svg');
+    background-repeat: no-repeat;
+    line-height: 40px;
+    padding-left: 10%;
+    padding-right: 15%;
+    font-size:1.5rem;
+    text-align:justify;
+}
+
+ul.pep li {
+    list-style-type: none;
+    background-image: url('../img/pep_thumb.svg');
+    background-repeat: no-repeat;
+    line-height: 40px;
+    padding-left: 10%;
+    padding-right: 15%;
+    font-size:1.5rem;
+    text-align:justify;
+}
+
+ul.rna li {
+    list-style-type: none;
+    background-image: url('../img/rna_thumb.svg');
+    background-repeat: no-repeat;
+    line-height: 40px;
+    padding-left: 10%;
+    padding-right: 15%;
+    font-size:1.5rem;
+    text-align:justify;
+}
+
+ul.proto li {
+    list-style-type: none;
+    background-image: url('../img/proto_thumb.svg');
+    background-repeat: no-repeat;
+    line-height: 40px;
+    padding-left: 10%;
+    padding-right: 15%;
+    font-size:1.5rem;
+    text-align:justify;
+}
+
 }
 
 /*End of formatting the icons for publications.html */
 
-/* 
-Extra small devices (portrait phones, less than 544px) 
-No media query since this is the default in Bootstrap because it is "mobile first"
-*/
-h1 {font-size:1rem;} /*1rem = 16px*/
-/*
-####################################################
-M E D I A  Q U E R I E S
-####################################################
-*/
- 
-/*
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-Bootstrap 4 breakpoints
-*/
-/* Small devices (landscape phones, 544px and up) */
-@media (min-width: 544px) {  
-  h1 {font-size:1.5rem;} /*1rem = 16px*/
-}
- 
-/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {  
-  h1 {font-size:2rem;} /*1rem = 16px*/
-}
- 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-  h1 {font-size:2.5rem;} /*1rem = 16px*/
-}
- 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
-  h1 {font-size:3rem;} /*1rem = 16px*/    
-}
- 
-/*
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-Custom media queries
-*/
- 
-/* Set width to make card deck cards 100% width */
-@media (min-width: 950px) and (max-width:1100px) { 
-  h1 {font-size:2.75rem;color:red;} 
-}
 
-.box {
-    padding: 0 25px 0 25px;
-}
-.box .inner {
-    background-color: #fff;
-}
+
+
+
+
+
+
+
 
 
