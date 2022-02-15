@@ -12,6 +12,11 @@ html {
 body {
 	scroll-snap-type: proximity;
 	scroll-snap-type: y proximity;
+	scroll-snap-type: proximity;
+	scroll-snap-type: y proximity;
+	scroll-padding-top: 2vh;
+	scroll-behavior: smooth;
+	-webkit-overflow-scrolling: touch;
 }
 
 ::-webkit-scrollbar {
