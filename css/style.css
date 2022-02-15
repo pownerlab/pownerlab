@@ -17,9 +17,7 @@ body {
 	-webkit-overflow-scrolling: touch;
 }
 
-::-webkit-scrollbar {
-    display: none; /* Chrome remove scrollbar */
-}
+
 
 .landing-text {
   height: 100vh;
