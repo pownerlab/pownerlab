@@ -5,8 +5,7 @@ html {
 	scroll-padding-top: 2vh;
 	scroll-behavior: smooth;
 	-webkit-overflow-scrolling: touch;
-	-ms-overflow-style: none;  /* IE and Edge remove scrollbar */
-	scrollbar-width: none;  /* Firefox remove scrollbar */
+
 }
 
 body {
