@@ -9,6 +9,11 @@ html {
 	scrollbar-width: none;  /* Firefox remove scrollbar */
 }
 
+body {
+	scroll-snap-type: mandatory;
+	scroll-snap-type: y mandatory;
+}
+
 ::-webkit-scrollbar {
     display: none; /* Chrome remove scrollbar */
 }
