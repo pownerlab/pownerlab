@@ -1,7 +1,7 @@
 html {
 	font-size: 62.5%;
-	scroll-snap-type: mandatory;
-	scroll-snap-type: y mandatory;
+	scroll-snap-type: proximity;
+	scroll-snap-type: y proximity;
 	scroll-padding-top: 2vh;
 	scroll-behavior: smooth;
 	-webkit-overflow-scrolling: touch;
@@ -10,8 +10,8 @@ html {
 }
 
 body {
-	scroll-snap-type: mandatory;
-	scroll-snap-type: y mandatory;
+	scroll-snap-type: proximity;
+	scroll-snap-type: y proximity;
 }
 
 ::-webkit-scrollbar {
