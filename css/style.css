@@ -1,20 +1,13 @@
 html {
 	font-size: 62.5%;
-	scroll-snap-type: mandatory;
-	scroll-snap-type: y proximity;
 	scroll-padding-top: 2vh;
-	scroll-behavior: smooth;
-	-webkit-overflow-scrolling: touch;
-	overflow: visible;
-
+        scroll-behavior: smooth;
+	-ms-overflow-style: none;  /* IE and Edge remove scrollbar */
+	scrollbar-width: none;  /* Firefox remove scrollbar */
 }
 
-body {
-	scroll-snap-type: mandatory;
-	scroll-snap-type: y proximity;
-	scroll-padding-top: 2vh;
-	scroll-behavior: smooth;
-	-webkit-overflow-scrolling: touch;
+::-webkit-scrollbar {
+    display: none; /* Chrome remove scrollbar */
 }
 
 
@@ -27,7 +20,6 @@ body {
   align-items: center;
   color: tomato;
   font-size: 10em;
-  scroll-snap-align:start;
 }
 
 .home-item{
@@ -54,12 +46,12 @@ body {
 
 .research_page1 {
 	font-size: 4em;
-	color: #83d0fa;
+	color: #FFFFFF;
 	height: 30vh;
 	font-weight: bold;
 	text-align: center;
 	background: tomato;
-        scroll-snap-align:center;
+        
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -79,7 +71,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	scroll-snap-align:start;
+	
 }
 
 .research_page3 {
@@ -93,17 +85,17 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	scroll-snap-align:start;
+	
 }
 
 .research_page4 {
 	font-size: 2.5em;
-	color: #83d0fa;
+	color: #FFFFFF;
 	height: 40vh;
 	font-weight: bold;
 	text-align: center;
 	background: tomato;
-        scroll-snap-align:center;
+        
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -112,7 +104,7 @@ body {
 
 .research_page5 {
 	height: 60vh;
-        scroll-snap-align:start;
+        
         color: #83d0fa;
         font-weight: bold;
         font-size: 2.5em;
@@ -122,7 +114,7 @@ body {
 	height: 40vh;
 	text-align: center;
 	background: white;
-        scroll-snap-align:center;
+        
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -144,7 +136,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	scroll-snap-align:start;
+	
 }
 
 .researchscroll2 {
@@ -152,7 +144,7 @@ body {
 	height: 100vh;
 	font-weight: bold;
 	text-align: center;
-	color: #83d0fa;
+	color: #FFFFFF;
         background-color: tomato;
 	display: flex;
 	flex-direction: column;
@@ -171,7 +163,7 @@ body {
 
 	justify-content: center;
 	align-items: center;
-	scroll-snap-align:start;
+	
 }
 
 
