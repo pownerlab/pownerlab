@@ -4,13 +4,12 @@ html {
         scroll-behavior: smooth;
 	-ms-overflow-style: none;  /* IE and Edge remove scrollbar */
 	scrollbar-width: none;  /* Firefox remove scrollbar */
+	overflow: scroll;
 }
 
 ::-webkit-scrollbar {
     display: none; /* Chrome remove scrollbar */
 }
-
-
 
 .landing-text {
   height: 100vh;
@@ -35,7 +34,6 @@ html {
 	height: 50 px;
 	margin: 50 px;
         border-radius: 15px 50px 30px 5px;
-        
 	line-height: 50px;
         color: white;
         font-weight: bold;
@@ -51,11 +49,11 @@ html {
 	font-weight: bold;
 	text-align: center;
 	background: tomato;
-        
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+        background-attachment: fixed;
 }
 
 
@@ -71,7 +69,6 @@ html {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	
 }
 
 .research_page3 {
@@ -85,7 +82,6 @@ html {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	
 }
 
 .research_page4 {
@@ -95,26 +91,32 @@ html {
 	font-weight: bold;
 	text-align: center;
 	background: tomato;
-        
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-attachment: fixed;
 }
 
 .research_page5 {
-	height: 60vh;
-        
+	height: 65vh;
         color: #83d0fa;
         font-weight: bold;
         font-size: 2.5em;
+	background-image: url('../img/example.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	background-color: transparent;
+        background-attachment: fixed;
 }
 
 .research_page6 {
 	height: 40vh;
 	text-align: center;
 	background: white;
-        
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -136,12 +138,19 @@ html {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	
+	background-image: url('../img/landingpage_research.svg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	background-color: transparent;
+        background-attachment: fixed;
 }
 
 .researchscroll2 {
 	font-size: 2.5em;
-	height: 100vh;
+	height: 70vh;
 	font-weight: bold;
 	text-align: center;
 	color: #FFFFFF;
@@ -150,7 +159,8 @@ html {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	scroll-snap-align:start;
+	background-attachment: fixed;
+        
 }
 
 .researchscrollcol {
@@ -159,11 +169,8 @@ html {
 	font-weight: bold;
 	text-align: center;
 	color: tomato;
-        
-
 	justify-content: center;
 	align-items: center;
-	
 }
 
 
@@ -177,9 +184,21 @@ html {
 	background-size: cover;
 	text-align: center;
 	background-color: transparent;
+	background-attachment: fixed;
 }
 
 #research_page_2 {
+	background-image: url('../img/landingpage.svg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	background-color: transparent;
+        background-attachment: fixed;
+}
+
+#research_page_3 {
 	background-image: url('../img/example.jpg');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -187,16 +206,7 @@ html {
 	background-size: cover;
 	text-align: center;
 	background-color: transparent;
-}
-
-#research_page_3 {
-	background-image: url('../img/water.jpg');
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	text-align: center;
-	background-color: transparent;
+        background-attachment: fixed;
 
 }
 
@@ -228,7 +238,7 @@ a:focus {
 }
 
 a:hover {
-color: #f5ab3d;
+color: #83d0fa;
 text-decoration:none;
 }
 
