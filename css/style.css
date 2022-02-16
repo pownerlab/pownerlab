@@ -407,7 +407,28 @@ ul.proto li {
 
 /*End of formatting the icons for publications.html */
 
+/* Fix for broken background-attachment:fixed in iOS */
+@supports (-webkit-touch-callout: none) { 
+  #landingpage {
+	background-attachment: initial;
+}
 
+  #research_page_2 {
+	background-attachment: initial;
+}
+
+  #research_page_3 {
+	background-attachment: initial;
+}
+
+  .researchscroll {
+	background-attachment: initial;
+}
+
+  .researchscroll2 {
+	background-attachment: initial;
+}
+}
 
 
 
