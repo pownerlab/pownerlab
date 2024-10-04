@@ -2,14 +2,9 @@ html {
 	font-size: 62.5%;
 	scroll-padding-top: 2vh;
         scroll-behavior: smooth;
-	-ms-overflow-style: none;  /* IE and Edge remove scrollbar */
-	scrollbar-width: none;  /* Firefox remove scrollbar */
 	
 }
 
-::-webkit-scrollbar {
-    display: none; /* Chrome remove scrollbar */
-}
 
 .landing-text {
   height: 100vh;
@@ -229,7 +224,7 @@ footer{
 
 a {
     text-decoration: none;
-    color: tomato;
+    color: #0b3657;
 }
 
 a:focus {
